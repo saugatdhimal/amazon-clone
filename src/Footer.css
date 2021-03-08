@@ -1,0 +1,28 @@
+
+.footer__textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer__text{
+    text-align: center;
+}
+.footer__end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer__logo{
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .footer > hr{
+    height: 20px;
+}

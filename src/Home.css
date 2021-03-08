@@ -1,0 +1,42 @@
+/* .home{
+    background-image: url("https://assets1.csnews.com/files/styles/hero/s3/2018-07/Amazon%20Prime%20Day%202018_hero_072318.jpg?itok=Iw0QqmJQ");
+    width: 100%;
+    height: 100vh;
+}  */
+.home__image{
+    object-fit: cover;
+    width: 100%;
+    min-width: 400px;
+    height: 100vh;
+
+}
+
+.home__container{
+    position: absolute;
+    top: 60vh;
+    /* background-image: linear-gradient(to bottom, rgba(255,215,0,0.1),rgba(0,0,0,1)); */
+}
+
+.home__row{
+    display: flex;
+    z-index: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+@media only screen and (max-width: 400px) {
+    .home__container{
+        margin-left: 15px;
+    }
+    
+  }
+
+/* .home__image{
+    width: 100vw;
+    height:500px;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+} */
+

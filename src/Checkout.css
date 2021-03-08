@@ -1,0 +1,42 @@
+
+.checkout{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.checkout__leftRight{
+    display: flex;
+    
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.checkout__left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.checkout__right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.checkout__title{
+    padding: 10px;
+    background-color:#f0c14b;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 650px) {
+    .checkout__products{
+        margin-left: 13vw;
+    }
+  }
+
+
+
+
